@@ -3,10 +3,14 @@ body {
   font-family: monospace;
 }
 
-.content {
+section {
   max-width: 600px;
   margin: 2em auto;
   padding: 0 10px;
+}
+
+section#license {
+  border-top: dashed 1px black;
 }
 
 h1, h2, h3, h4, h5, h6 {
