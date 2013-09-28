@@ -14,7 +14,7 @@
       <p>
         Different people can make different days. If we say "There will always be some 
         people who can't make it, just pick a day" we exclude specifically the people 
-        who can't make that day, and it will usually be the same people over and over
+        who can't make that day and it will usually be the same people over and over
         again. 
       </p>
       <p>
@@ -28,14 +28,14 @@
       
       <h2>Solution!</h2>
       <p>
-        We seem to have quite a gathering of people interested in going to a pub in inclusive
+        We seem to have quite a gathering of people interested in going to a pub in an inclusive
         manner: Enough that on any given day we pick we're likely to be able to gather
         enough people for a meetup that we won't be sitting in the pub on our own feeling
         sorry for ourself.
       </p>
 
       <p>
-        I propose we have weekly meetups. Once enough time has passed, we can figure out
+        I propose we have weekly meetups. Once enough time has passed we can figure out
         which of those days work best. These can then be designated "main" computer days. 
         If people like the weekly meetups these can continue, otherwise we can just start
         meeting up on only those main days.
@@ -44,19 +44,21 @@
       <h3>Algorithm :(</h3>
 
       <p>
-        I initially suggested this algorithm as a joke, but it's actually got a lot of nice
-        properties and I think we should use it.
+        I initially suggested this algorithm as a joke, but it seems moderately popular and
+        it's got a lot of nice properties, so I think we should use it.
       </p>
 
       <ol>
-        <li> We always meet on the first Thursday of every month</li>
         <li>
-          If this week does not contain the first Thursday of the month, we meet on the
-          previous day of the week to last week
+          We always meet on the first Thursday of every month.
         </li>
         <li>
-          If last week's meetup was on a Monday then we meet on Friday (this will happen
-          only very rarely)
+          If this week does not contain the first Thursday of the month, we meet on the
+          previous day of the week to the one we met last week.
+        </li>
+        <li>
+          If this week does not contain the first Thursday of the month and last week's 
+          meetup was on a Monday then we meet on Friday (this will happen very rarely)
         </li>
       </ol>
 
@@ -76,7 +78,8 @@
         <li>
           It mostly avoids Friday, because we're worried that Friday meetups will be a 
           bit too heavy on the drinking, but every now and then when the stars align it
-          gives us a computer party.
+          gives us a computer party. Note: Despite this being a rarity, we will get such
+          a Friday in October.
         </li>
       </ul> 
 
@@ -90,12 +93,12 @@
 
       <noscript>
       <p>
-      Unfortunately there's no server side scripting on Github pages so we had to do this in
-      Javascript. :(
+        Unfortunately there's no server side scripting on Github pages so we had to do this in
+        Javascript. :(
       </p>
       <p>
-      If you can't run Javascript we're really sorry. Please use the algorithm description
-      above or ask someone on IRC.
+        If you can't run Javascript we're really sorry. Please manually run the algorithm
+        description above or ask someone on IRC.
       </p>
       </noscript>
       <script lang="js" src="date_display.js">
@@ -110,7 +113,7 @@
       </p>
 
       <p>
-        Each week we should pick a pub for that week (suggested algorithm: "Anyone object to 
+        Each week we should pick a pub for that week (suggested procedure: "Anyone object to 
         same one as last week?" with some sort of voting if answer is yes) and gather there
         on the prescribed day. Computer should ensue.
       </p>
