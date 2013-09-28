@@ -17,14 +17,18 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
 }
 
-ul {
+ul, ol {
   padding-left: 0;
 }
 
-li {
+ol {
+  list-style-position: inside;
+}
+
+ul li {
   list-style-type: none;
 }
 
-li::before {
+ul li::before {
   content : '- ';
 }
