@@ -5,6 +5,17 @@ body {
 .acessibility-menu{
     float:right;
 }
+.acessibility-menu .bow{
+    display:none;
+    color:black!important;
+    background-color:white;
+    padding:0.2em;
+}
+.acessibility-menu .wob{
+    color:white;
+    background-color:black;
+    padding:0.2em;
+}
 #acessibility:target{
     color:white;
     background-color:black;
@@ -12,7 +23,12 @@ body {
 #acessibility:target a{
     color:white;
 }
-
+#acessibility:target .wob{
+    display:none;
+}
+#acessibility:target .bow{
+    display:inline;
+}
 section {
   max-width: 600px;
   margin: 2em auto;
