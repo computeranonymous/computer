@@ -2,34 +2,34 @@ body {
   font-size: 140%;
   font-family: monospace;
 }
-.acessibility-menu{
+.accessibility-menu{
     float:right;
     line-height:130%;
 }
 
-.acessibility-menu .bow{
+.accessibility-menu .bow{
     display:none;
     color:black!important;
     background-color:white;
     padding:0.2em;
 }
 
-.acessibility-menu .wob{
+.accessibility-menu .wob{
     color:white;
     background-color:black;
     padding:0.2em;
 }
-#acessibility:target{
+#accessibility:target{
     color:white;
     background-color:black;
 }
-#acessibility:target a{
+#accessibility:target a{
     color:white;
 }
-#acessibility:target .wob{
+#accessibility:target .wob{
     display:none;
 }
-#acessibility:target .bow{
+#accessibility:target .bow{
     display:inline;
 }
 section {
