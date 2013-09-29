@@ -1,16 +1,19 @@
 body {
-  font-size: 100%;
+  font-size: 140%;
   font-family: monospace;
 }
 .acessibility-menu{
     float:right;
+    line-height:130%;
 }
+
 .acessibility-menu .bow{
     display:none;
     color:black!important;
     background-color:white;
     padding:0.2em;
 }
+
 .acessibility-menu .wob{
     color:white;
     background-color:black;
@@ -30,7 +33,7 @@ body {
     display:inline;
 }
 section {
-  max-width: 600px;
+  max-width: 50em;
   margin: 2em auto;
   padding: 0 10px;
 }
