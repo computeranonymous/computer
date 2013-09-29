@@ -2,6 +2,16 @@ body {
   font-size: 100%;
   font-family: monospace;
 }
+.acessibility-menu{
+    float:right;
+}
+#acessibility:target{
+    color:white;
+    background-color:black;
+}
+#acessibility:target a{
+    color:white;
+}
 
 section {
   max-width: 600px;
