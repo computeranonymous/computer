@@ -2,14 +2,14 @@ body {
   font-size: 100%;
   font-family: monospace;
 }
-.acessibility-menu{
+.accessibility-menu{
     float:right;
 }
-#acessibility:target{
+#accessibility:target{
     color:white;
     background-color:black;
 }
-#acessibility:target a{
+#accessibility:target a{
     color:white;
 }
 
