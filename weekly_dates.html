@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>computer anonymous</title>
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=false;">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  </head>
+  <body>
+    <section class="content">
+      <h1>The best dates to computer</h1>
+     
+      <h2>Problem?</h2> 
+      <p>
+        Different people can make different days. If we say "There will always be some 
+        people who can't make it, just pick a day" we exclude specifically the people 
+        who can't make that day and it will usually be the same people over and over
+        again. 
+      </p>
+      <p>
+        This is sad. We like including people and want to do more of it, so we want to
+        find days of the week where everyone can attend.
+      </p>
+      <p>
+        Unfortunately this is literally impossible. There are no days where everyone can
+        make it.
+      </p>
+      
+      <h2>Solution!</h2>
+      <p>
+        We seem to have quite a gathering of people interested in going to a pub in an inclusive
+        manner: Enough that on any given day we pick we're likely to be able to gather
+        enough people for a meetup that we won't be sitting in the pub on our own feeling
+        sorry for ourself.
+      </p>
+
+      <p>
+        I propose we have weekly meetups. Once enough time has passed we can figure out
+        which of those days work best. These can then be designated "main" computer days. 
+        If people like the weekly meetups these can continue, otherwise we can just start
+        meeting up on only those main days.
+      </p>
+
+      <h3>Algorithm :(</h3>
+
+      <p>
+        I initially suggested this algorithm as a joke, but it seems moderately popular and
+        it's got a lot of nice properties, so I think we should use it.
+      </p>
+
+      <ol>
+        <li>
+          We always meet on the first Thursday of every month.
+        </li>
+        <li>
+          If this week does not contain the first Thursday of the month, we meet on the
+          previous day of the week to the one we met last week.
+        </li>
+        <li>
+          If this week does not contain the first Thursday of the month and last week's 
+          meetup was on a Monday then we meet on Friday (this will happen very rarely)
+        </li>
+      </ol>
+
+      This has the following desirable properties:
+
+      <ul>
+        <li>
+          It conveniently coincides with the two best days in the doodle for the first 
+          computer meetup.
+        </li>
+        <li>
+          It gives all days of the week other than Friday an equal hearing.
+        </li>
+        <li>
+          It never clashes with Pub Standards.
+        </li>
+        <li>
+          It mostly avoids Friday, because we're worried that Friday meetups will be a 
+          bit too heavy on the drinking, but every now and then when the stars align it
+          gives us a computer party. Note: Despite this being a rarity, we will get such
+          a Friday in October.
+        </li>
+      </ul> 
+
+      <h4>Computer</h4>
+
+      <p>
+        Here's a handy Javascript implementation which will tell you this and next week's
+        meet-up days.
+      </p>
+        
+
+      <noscript>
+      <p>
+        Unfortunately there's no server side scripting on Github pages so we had to do this in
+        Javascript. :(
+      </p>
+      <p>
+        If you can't run Javascript we're really sorry. Please manually run the algorithm
+        description above or ask someone on IRC.
+      </p>
+      </noscript>
+      <script lang="js" src="date_display.js">
+      </script>
+
+      <h3>What do?</h3>
+      
+      <p>
+        Basically I think we should run with these dates for a few months. Any days which
+        are just obviously dead (e.g. we might not get much traction on Monday) we can mark
+        as such and stop trying to go to.
+      </p>
+
+      <p>
+        Each week we should pick a pub for that week (suggested procedure: "Anyone object to 
+        same one as last week?" with some sort of voting if answer is yes) and gather there
+        on the prescribed day. Computer should ensue.
+      </p>
+
+      <p>
+        After two months we should mark the two days in the Month with the most diverse turnout
+        (for the sake of explicitness lets say the function we're optimising for is "number of
+        people who are not white cis men who turn up") as the official main computer days. If 
+        people want to keep doing things on the rest, that's cool too, but the main ones should
+        be the ones we encourage people to turn up to.
+      </p>
+    </section>
+    <section id="license">
+      <p xmlns:dct="http://purl.org/dc/terms/">
+        <a rel="license"
+           href="http://creativecommons.org/publicdomain/zero/1.0/">
+          <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+        </a>
+        <br />
+        To the extent possible under law,
+        <span rel="dct:publisher" resource="[_:publisher]">the person who associated CC0</span>
+        with this work has waived all copyright and related or neighboring
+        rights to this work.
+      </p>
+    </section>
+  </body>
+</html>
+
