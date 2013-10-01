@@ -57,10 +57,13 @@ ul {
 li {
   list-style-type: none;
   line-height: 1.5;
-
 }
 
 li::before {
+}
+
+ul.rules > li {
+  line-height: 1.8;
 }
 
 ul.groups > li {
