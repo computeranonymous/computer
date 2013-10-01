@@ -1,8 +1,7 @@
 body {
   font-size: 130%;
   font-family: monospace;
-}
-.accessibility-menu{
+} .accessibility-menu{
     float:right;
     line-height:130%;
 }
@@ -54,7 +53,7 @@ ul {
   padding-left: 0;
 }
 
-li {
+ul li {
   list-style-type: none;
   line-height: 1.5;
 }
@@ -79,3 +78,7 @@ li ul li::before {
   content : '- ';
 }
 
+ol {
+ padding-left: 0;
+ list-style-position: inside;
+}
