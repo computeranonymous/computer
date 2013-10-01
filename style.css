@@ -19,17 +19,17 @@ body {
     background-color:black;
     padding:0.2em;
 }
-#accessibility:target{
+#accessibility:target, #accessibility.inverted {
     color:white;
     background-color:black;
 }
-#accessibility:target a{
+#accessibility:target a, #accessibility.inverted a {
     color:white;
 }
-#accessibility:target .wob{
+#accessibility:target .wob, #accessibility.inverted .wob {
     display:none;
 }
-#accessibility:target .bow{
+#accessibility:target .bow, #accessibility.inverted .bow {
     display:inline;
 }
 section {
