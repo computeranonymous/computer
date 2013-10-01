@@ -1,9 +1,23 @@
 body {
-  font-size: 100%;
+  font-size: 140%;
   font-family: monospace;
 }
 .accessibility-menu{
     float:right;
+    line-height:130%;
+}
+
+.accessibility-menu .bow{
+    display:none;
+    color:black!important;
+    background-color:white;
+    padding:0.2em;
+}
+
+.accessibility-menu .wob{
+    color:white;
+    background-color:black;
+    padding:0.2em;
 }
 #accessibility:target{
     color:white;
@@ -12,9 +26,14 @@ body {
 #accessibility:target a{
     color:white;
 }
-
+#accessibility:target .wob{
+    display:none;
+}
+#accessibility:target .bow{
+    display:inline;
+}
 section {
-  max-width: 600px;
+  max-width: 50em;
   margin: 2em auto;
   padding: 0 10px;
 }
