@@ -16,6 +16,7 @@ Meeting pages and changes will almost always get merged straight away, but other
 - We want to avoid both slang and jargon, especially in the rules. We want to be conversational, not bureaucratic or formal in tone.
 - We have a complexity budget, we cannot make an exhaustive set of rules, and we have to translate things so the less words the better.
 - Smaller changes to the Rules have a higher chance of success, Larger changes take more discussion. Edit one line at a time.
+- Please avoid gendered language. This means don't use "guys", "guys and gals", "dude". We suggest "meatbags", "people", "peeps" or "folks".
 
 
 
