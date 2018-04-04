@@ -8,7 +8,7 @@ We're not an outreach or an educational group, although both are important to us
 
 If you want to start your own meetup, fork and open a pull request. We also love feedback and translations.
 
-Meeting pages and changes will usually almost always get merged straight away, but other changes take time.
+Meeting pages and changes will almost always get merged straight away, but other changes take time.
 
 ## Writing Guidelines
 
