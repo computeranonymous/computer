@@ -4,7 +4,7 @@ A meeting for people who don't know what they are doing on computer. The ideals 
 
 We want to create a social group for people in and around tech, from all backgrounds, where they feel comfortable and welcome. 
 
-We're not an outreach or or an eductational group, although both are important to us, we're primarily a technology related meetup, but with a code of conduct.
+We're not an outreach or an educational group, although both are important to us, we're primarily a technology related meetup, but with a code of conduct.
 
 If you want to start your own meetup, fork and open a pull request. We also love feedback and translations.
 
